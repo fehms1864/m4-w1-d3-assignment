@@ -1,0 +1,60 @@
+@import url(https://fonts.googleapis.com/css?family=Bitter:400,400italic,700);
+/*---------
+rgb(255,255,255)
+rgb(0,0,0)
+rgba(0,0,0,0.5)
+rgba(0,0,0,0.24)
+rgb(22, 34, 42)
+rgb(58, 96, 115)
+
+
+//Fonts:
+Bitter
+FontAwesome
+----------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bitter"; }
+
+body .main-wrapper .header {
+  background: linear-gradient(270deg, black 0%, #16222a 30%, #3a6073 100%);
+  height: 250px;
+  margin-bottom: 10px; }
+  body .main-wrapper .header h1 {
+    margin: 0;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 250px;
+    /* The same as div height */
+    color: white; }
+
+body .main-wrapper h2 {
+  margin: 0;
+  text-align: center; }
+
+body .main-wrapper #vue {
+  margin: 0 auto;
+  width: 1150px;
+  /* max-width: 80em; */
+  display: flex;
+  flex-wrap: wrap; }
+  body .main-wrapper #vue .option {
+    flex: 1 0 21%;
+    text-align: center;
+    margin: 15px; }
+    body .main-wrapper #vue .option img {
+      width: 250px;
+      height: 230px; }
+    body .main-wrapper #vue .option h3 {
+      margin: 0;
+      text-align: center; }
+    body .main-wrapper #vue .option p {
+      margin: 0;
+      text-align: center;
+      font-style: italic; }
+    body .main-wrapper #vue .option button {
+      background-color: white;
+      padding: 5px;
+      margin: 5px 0; }
